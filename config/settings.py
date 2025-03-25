@@ -25,8 +25,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', True,cast=bool)
 
-ALLOWED_HOSTS = ['vumbua-production.up.railway.app','127.0.0.1']
-CSRF_TRUSTED_ORIGINS=['https://vumbua-production.up.railway.app']
+ALLOWED_HOSTS = ['vumbua-production-ef74.up.railway.app','127.0.0.1']
+CSRF_TRUSTED_ORIGINS=['https://vumbua-production-ef74.up.railway.app']
 
 
 # Application definition
